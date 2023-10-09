@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo Header */
+header {
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.anclas {
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(54, 54, 54);
+    padding: 20px;
+}
+
+.imgheader {
+    width: 100px;
+}
+
+/* Estilo Seccion 1 */
+
+.seccion1 {
+    width: 100%;
+    margin: 50px 30px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.textosec1 {
+    align-items: center;
+    justify-items: flex-end;
+    padding: 15px;
+    margin: 25px 100px;
+    color: rgb(37, 37, 37);
+}
+
+
+.sec1a {
+    flex-basis: 40%;
+    font-size: 55px;
+
+}
+
+.sec1b {
+    font-family: Arial;
+    flex-basis: 60%;
+    border-left: 2px solid #515050;
+    padding: 20px;
+}
+
+.psec1b {
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: small;
+}
+
+.imagensec1 {
+    width: 900px;
+    justify-content: flex-end;
+}
+
+.textosec1 {
+    display: flex;
+}
+
+
+/* ESTILO SECCION 2 */
+
+.seccion2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 50px 10px;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.textoseccion2{
+    padding: 45px;
+}
+.h2sec2{
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 60px 0px;
+    color: rgb(37, 37, 37);
+}
+.psec2a{
+    margin: 30px 0px;
+    color: grey;
+    
+}
+.psec2b{
+    margin: 30px 0px;
+}
+
+.vertical1 {
+    width: 550px;
+}
