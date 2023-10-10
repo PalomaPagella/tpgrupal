@@ -30,7 +30,7 @@ a {
 
 .seccion1 {
     width: 100%;
-    margin: 50px 30px;
+    margin: 50px 70px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -81,28 +81,253 @@ a {
 .seccion2 {
     display: flex;
     flex-direction: row-reverse;
-    margin: 50px 10px;
+    justify-content: center;
+    margin: 50px 70px;
     align-items: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
-.textoseccion2{
-    padding: 45px;
-}
-.h2sec2{
+
+.textoseccion2 {}
+
+.h2sec2 {
     font-size: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 60px 0px;
     color: rgb(37, 37, 37);
 }
-.psec2a{
+
+.psec2a {
     margin: 30px 0px;
     color: grey;
-    
+
 }
-.psec2b{
+
+.psec2b {
     margin: 30px 0px;
 }
 
 .vertical1 {
-    width: 550px;
+    width: 500px;
+}
+
+/* ESTILO SECCION 3 */
+
+.seccion3 {
+
+    margin: 50px 70px;
+}
+
+/* IMAGENES SECCION 3 */
+.vertical2 {
+    width: 400px;
+    padding: 10px;
+}
+
+.horizontal1 {
+    width: 600px;
+    padding: 10px;
+}
+
+/* TEXTOS SECCION 3 */
+
+.caja1sec3 {
+    display: flex;
+
+}
+
+.caja2sec3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.textocaja1sec3 {
+    width: 40%;
+}
+
+.h2sec3 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 60px 0px;
+    color: rgb(37, 37, 37);
+}
+
+.p1asec3 {
+    margin: 30px 0px;
+    color: grey;
+}
+
+.p1bsec3 {
+    color: rgb(37, 37, 37);
+    margin: 30px 0px;
+}
+
+.hr1 {
+    width: 50%;
+    height: 2px;
+    background-color: gray;
+}
+
+.textocaja2sec3 {
+    width: 40%;
+}
+
+.h3sec3 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 60px 0px;
+    color: rgb(37, 37, 37);
+}
+
+.p2asec3 {
+    margin: 30px 0px;
+    color: grey;
+}
+
+.p2bsec3 {
+    color: rgb(37, 37, 37);
+    margin: 30px 0px;
+}
+
+.hr2 {
+    width: 50%;
+    height: 2px;
+    background-color: gray;
+}
+
+/* ESTILO SECCION 4 */
+
+.seccion4 {
+    margin: 50px 70px;
+}
+
+.imgcv {
+    width: 200px;
+}
+
+.cajaimg {
+    box-shadow: -20px -25px 0px gray;
+}
+
+.caja1sec4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datoscv {
+    padding: 15px;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.h4sec4 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.h6sec4 {
+    color: #515050;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.icons {
+    margin: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.fb {
+    color: rgb(59, 59, 247);
+    padding: 5px;
+}
+
+.tw {
+    color: rgb(0, 162, 255);
+    padding: 5px;
+}
+
+.go {
+    color: rgb(182, 28, 28);
+    padding: 5px;
+}
+
+.textocaja1sec4 {
+    padding: 20px;
+    color: #908e8e;
+    text-align: center;
+    font-size: 19px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+/* ESTILO SECCION 5 */
+
+.seccion5 {
+    margin: 50px 70px;
+    display: flex;
+}
+
+.cajota1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-wrap: wrap;
+    width: 50%;
+
+}
+
+.cajota2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.cajota2a {
+    margin: 15px;
+    display: flex;
+}
+
+.textocajota2a {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.h3cajota2a {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.pcajota2a {
+    padding: 10px;
+    color: #908e8e;
+}
+
+.cajota2b {
+    margin: 15px;
+    display: flex;
+}
+
+.textocajota2b {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.h3cajota2b {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.pcajota2b {
+    padding: 10px;
+    color: #908e8e;
+}
+
+.vertical3 {
+    width: 130px;
+}
+
+.vertical4 {
+    width: 130px;
 }
