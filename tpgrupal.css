@@ -30,7 +30,7 @@ a {
 
 .seccion1 {
     width: 100%;
-    margin: 50px 70px;
+    margin: 10px 30px;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -71,6 +71,15 @@ a {
     justify-content: flex-end;
 }
 
+.iconseccion1 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    position: relative;
+    bottom: 70px;
+    left: 600px;
+}
+
 .textosec1 {
     display: flex;
 }
@@ -82,12 +91,20 @@ a {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    margin: 50px 70px;
+    margin: 10px 30px;
+    padding: 10px;
+    position: relative;
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-.textoseccion2 {}
+.iconseccion2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: absolute;
+    top: 580px;
+}
 
 .h2sec2 {
     font-size: 50px;
@@ -113,8 +130,8 @@ a {
 /* ESTILO SECCION 3 */
 
 .seccion3 {
-
-    margin: 50px 70px;
+    margin: 10px 30px;
+    padding: 10px;
 }
 
 /* IMAGENES SECCION 3 */
@@ -132,7 +149,6 @@ a {
 
 .caja1sec3 {
     display: flex;
-
 }
 
 .caja2sec3 {
@@ -197,7 +213,8 @@ a {
 /* ESTILO SECCION 4 */
 
 .seccion4 {
-    margin: 50px 70px;
+    margin: 10px 30px;
+    padding: 10px;
 }
 
 .imgcv {
@@ -265,7 +282,8 @@ a {
 /* ESTILO SECCION 5 */
 
 .seccion5 {
-    margin: 50px 70px;
+    margin: 10px 30px;
+    padding: 10px;
     display: flex;
 }
 
@@ -273,6 +291,47 @@ a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     flex-wrap: wrap;
     width: 50%;
+
+}
+
+.cajota1a {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.h3cajota1a {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.pcajota1a {
+    padding: 10px;
+    color: #908e8e;
+}
+
+.cajota1b {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 180px;
+    padding: 10px;
+}
+
+.izquierda {
+    background-color: #d3d3d3;
+    color: #939292;
+    width: 80px;
+    height: 40px;
+}
+
+.derecha {
+    align-content: center;
+    background-color: black;
+    color: white;
+    width: 80px;
+    height: 40px;
 
 }
 
@@ -295,7 +354,7 @@ a {
 
 .h3cajota2a {
     padding: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .pcajota2a {
@@ -316,7 +375,7 @@ a {
 
 .h3cajota2b {
     padding: 10px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .pcajota2b {
@@ -330,4 +389,71 @@ a {
 
 .vertical4 {
     width: 130px;
+}
+
+/* ESTILO FOOTER */
+
+footer {
+    margin: 10px 30px;
+    padding: 10px;
+    background-color: #3a3939;
+    color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logopng {
+    width: 100px;
+}
+
+li {
+    list-style: none;
+}
+
+.aul {
+    color: beige;
+}
+
+.li {
+    font-size: 12px;
+    padding: 10px;
+}
+
+.subs {
+    color: beige;
+    font-size: 12px;
+    padding: 10px;
+}
+
+textarea {
+    height: 20px;
+}
+
+.c {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.c1 {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    margin: 10px;
+}
+
+.iconosfooter {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.twf {
+    padding: 10px;
+}
+
+.fbf {
+    padding: 10px;
 }
