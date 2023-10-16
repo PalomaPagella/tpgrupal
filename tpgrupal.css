@@ -2,15 +2,11 @@
     margin: 0;
     padding: 0;
 }
-body {
-    margin: 0;
-    margin-right: 30px; /* Ajusta el valor según tus necesidades */
-}
+
 
 /* Estilo Header */
 header {
-    margin: 150px;
-    /*padding: 15px;*/
+    margin: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,7 +19,7 @@ header {
 a {
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(210, 29, 29);
+    color: rgb(54, 54, 54);
     padding: 10px;
 }
 
@@ -82,7 +78,7 @@ a {
     padding: 10px;
     position: relative;
     bottom: 70px;
-    left: 600px;
+
 }
 
 .textosec1 {
@@ -95,16 +91,15 @@ a {
 .seccion2 {
     margin-top: 30px;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
     padding: 10px;
     align-items: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 
-/*.textoseccion2 {
-     me falta mover todo el texto hacia la izquierda }*/
+/* .textoseccion2 {
+    justify-content: center;
+} */
 
 
 .h2sec2 {
