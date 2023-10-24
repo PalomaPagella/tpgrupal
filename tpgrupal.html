@@ -1,12 +1,13 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./tpgrupal.css">
+    <title>TP-Grupo-6</title>
+    <link rel="stylesheet" href="tpgrupal.css">
     <link rel="stylesheet" href="https://cdnjs.com/libraries/font-awesome">
     <script src="https://kit.fontawesome.com/ecb0006d9a.js" crossorigin="anonymous"></script>
-    <title>TP Grupal</title>
 </head>
 
 <body>
@@ -37,31 +38,37 @@
             </div>
 
         </div>
-        <div>
+        <div class="imgsec1">
             <img class="imagensec1" src="./imagenes/Banner.jpg" alt="">
             <div class="iconseccion1">
                 <i class="fa-solid fa-arrow-right fa-rotate-180 izquierda"></i>
+                <div class="iconseccion2"></div>
                 <i class="fa-solid fa-arrow-right derecha"></i>
             </div>
+        </div>
         </div>
     </section>
 
     <section class="seccion2">
+        <div class="iconseccion2">
+            <i class="fa-solid fa-arrow-right fa-rotate-180 izquierda"></i>
+            <i class="fa-solid fa-arrow-right derecha"></i>
+        </div>
         <div class="imagensec1">
             <img class="vertical1" src="./imagenes/vertical1.jpg" alt="">
         </div>
         <div class="textoseccion2">
             <h2 class="h2sec2">Lorem ipsum dolor <br> sit amet </h2>
-            <p class="psec2a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tempora <br> optio laudantium
-                sunt ratione,
-                neque nisi totam id nemo voluptatum <br> sequi deleniti quo quae labore numquam pariatur? Quam,
-                dignissimos vero.</p>
+            <p class="psec2a">Lorem ipsum dolor sit amet consectetur, <br> 
+            adipisicing elit. Sit tempora optio laudantium sunt ratione <br>
+            neque nisi totam id nemo voluptatum sequi deleniti quo quae labore <br>
+            numquam pariatur? Quam, dignissimos vero.</p>
             <i class="fa-solid fa-earth-americas mundo"></i>
-            <p class="psec2b"> <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aperiam ipsum,
+            <p class="psec2b"> <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Corrupti aperiam ipsum,
                     porro tenetur
                 </i></p>
         </div>
-      
+
 
 
     </section>
@@ -89,11 +96,12 @@
                 <h3 class="h3sec3">Images Gallary</h3>
                 <p class="p2asec3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, corporis voluptates
                     veniam
-                    repudiandae vitae ut dolore voluptatibus natus odit, magni nam. Accusamus distinctio, eum eos
-                    cupiditate nam commodi est odit?</p>
-                <p class="p2bsec3"> <b>SEE ALL </b>
-                    <hr class="hr2">
-                </p>
+                    repudiandae vitae ut?</p>
+                <div class="see-all">
+                    <p class="p2bsec3"><b>SEE ALL </b>
+                        <hr class="hr2">
+                    </p>
+                </div>
             </div>
         </div>
 
@@ -162,7 +170,6 @@
             </div>
         </div>
     </section>
-
     <footer>
         <div class="logofooter">
             <img class="logopng" src="./imagenes/logopng.png" alt="">
@@ -185,7 +192,7 @@
             <a class="subs" href="#">Subscribe</a>
             <div class="c1">
                 <textarea name="" id="" cols="30" rows="10">example@mail.com</textarea>
-                <button class="button">SEND</button>
+                <a class="button" href="#">SEND</a>
             </div>
             <div class="iconosfooter">
                 <i class="fa-brands fa-twitter twf"></i>
@@ -193,6 +200,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>

@@ -1,20 +1,24 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 
 /* Estilo Header */
+
 header {
     margin: 30px;
+    padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .anclas {
     justify-content: flex-end;
 }
+
 
 a {
     text-decoration: none;
@@ -23,24 +27,27 @@ a {
     padding: 10px;
 }
 
+a:hover {
+    color: green;
+}
+
 .imgheader {
-    width: 100px;
+    width: 50px;
 }
 
 /* Estilo Seccion 1 */
 
 .seccion1 {
-    margin: 15px;
+    margin: 30px;
     width: 100%;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .textosec1 {
     align-items: center;
-    justify-items: flex-end;
     padding: 15px;
     margin: auto;
     color: rgb(37, 37, 37);
@@ -48,14 +55,14 @@ a {
 
 
 .sec1a {
-    flex-basis: 40%;
+    flex-basis: 45%;
     font-size: 55px;
 
 }
 
 .sec1b {
     font-family: Arial;
-    flex-basis: 60%;
+    flex-basis: 55%;
     border-left: 2px solid #515050;
     padding: 20px;
 }
@@ -68,16 +75,42 @@ a {
 }
 
 .imagensec1 {
-    width: 900px;
-    justify-content: flex-end;
+    width: 800px;
+    margin-right: -380px;
+}
+
+.imgsec1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .iconseccion1 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    text-align: center;
     padding: 10px;
-    position: relative;
-    bottom: 70px;
+    position: absolute;
+    bottom: -10px;
+    right: -50px;
+}
+
+
+.izquierda {
+    background-color: #d3d3d3;
+    color: #939292;
+    width: 70px;
+    height: 45px;
+}
+
+.derecha {
+    display: inline-block;
+    transform: scaleY(-1);
+    align-content: center;
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 45px;
 
 }
 
@@ -90,16 +123,30 @@ a {
 
 .seccion2 {
     margin-top: 30px;
+    position: relative;
     display: flex;
+    justify-content: flex-end;
     padding: 10px;
     align-items: center;
+    text-align: left;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-
-/* .textoseccion2 {
+.iconseccion2 {
+    display: flex;
     justify-content: center;
-} */
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 3px;
+    left: 370px;
+}
+
+.textoseccion2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+}
 
 
 .h2sec2 {
@@ -125,8 +172,10 @@ a {
 }
 
 .vertical1 {
-    margin-left: -40px;
-    width: 400px;
+    margin-left: -88px;
+    width: 450px;
+    height: auto;
+    flex-basis: 40%;
 }
 
 /* ESTILO SECCION 3 */
@@ -139,16 +188,18 @@ a {
 }
 
 /* IMAGENES SECCION 3 */
+
 .vertical2 {
-    width: 300px;
+    overflow: hidden;
+    width: 280px;
     margin-bottom: -30px;
-    margin-left: -45px;
+    margin-left: -335px;
 }
 
 .horizontal1 {
-    width: 500px;
-    margin-top: -30px;
-    margin-right: -45px;
+    width: 400px;
+    margin-top: -110px;
+    margin-right: -195px;
 }
 
 /* TEXTOS SECCION 3 */
@@ -167,6 +218,8 @@ a {
 
 .textocaja1sec3 {
     width: 40%;
+    margin-right: 80px;
+    margin-left: -150px;
 }
 
 .h2sec3 {
@@ -197,26 +250,41 @@ a {
     margin: 30px;
     display: flex;
     flex-direction: column;
+    margin-right: -70px;
 }
 
 .h3sec3 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: left;
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 10px;
+    padding: 0;
     color: rgb(37, 37, 37);
 }
 
 .p2asec3 {
-
+    text-align: left;
+    padding: 0;
     color: grey;
 }
 
+.see-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .p2bsec3 {
+    margin-top: 50px;
+    display: flex;
+    align-content: center;
     color: rgb(37, 37, 37);
-    padding: 20px;
+    padding: 0px;
 }
 
 .hr2 {
+    margin-top: 50px;
     width: 50%;
     height: 2px;
     background-color: gray;
@@ -226,6 +294,8 @@ a {
 
 .seccion4 {
     padding: 10px;
+    margin-bottom: 90px;
+    margin-top: 90px;
 }
 
 .imgcv {
@@ -293,9 +363,10 @@ a {
 /* ESTILO SECCION 5 */
 
 .seccion5 {
-    padding: 10px;
+    margin: 30px;
     display: flex;
 }
+
 
 .cajota1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -325,25 +396,10 @@ a {
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 180px;
+    margin-top: 70px;
     padding: 10px;
 }
 
-.izquierda {
-    background-color: #d3d3d3;
-    color: #939292;
-    width: 80px;
-    height: 40px;
-}
-
-.derecha {
-    align-content: center;
-    background-color: black;
-    color: white;
-    width: 80px;
-    height: 40px;
-
-}
 
 .cajota2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -354,12 +410,14 @@ a {
 .cajota2a {
     margin: 15px;
     display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .textocajota2a {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .h3cajota2a {
@@ -373,14 +431,16 @@ a {
 }
 
 .cajota2b {
-    margin: 15px;
+    margin: 35px;
     display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .textocajota2b {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .h3cajota2b {
@@ -394,11 +454,14 @@ a {
 }
 
 .vertical3 {
-    width: 130px;
+    width: 90px;
+    height: auto;
+
 }
 
 .vertical4 {
-    width: 130px;
+    width: 90px;
+    height: auto;
 }
 
 /* ESTILO FOOTER */
@@ -437,6 +500,11 @@ li {
 
 textarea {
     height: 20px;
+    padding: 5px;
+    background-color: #484848;
+    color: #d3d3d3;
+    resize: none;
+    border: none;
 }
 
 .c {
@@ -452,6 +520,16 @@ textarea {
 
 .button {
     margin: 10px;
+    padding: 8px;
+    font-size: 11px;
+    background-color: #484848;
+    color: #d3d3d3;
+
+}
+
+.button:hover {
+    background-color: gray;
+    color: white;
 }
 
 .iconosfooter {
