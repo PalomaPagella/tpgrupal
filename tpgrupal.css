@@ -599,21 +599,94 @@ textarea {
 /*RESPONSIVE TABLET*/
 
 @media all and (max-width:768px) {
+
+    /* Header */
+
     .anclas {
         font-weight: bold;
     }
+
+    /* Seccion 1 */
+
+    .sec1a {
+        font-size: xx-large;
+        text-align: center;
+
+    }
+
+    .imagensec1 {
+        width: 550px;
+        align-items: center;
+        margin: 10px -90px 10px 10px;
+    }
+
+    .iconseccion1 {
+        margin-bottom: 10px;
+    }
+
+    /* Seccion 2 */
 
     .textoseccion2 {
         margin-right: -40px;
         margin-top: -55px;
     }
 
-    .textocaja1sec3 {
-        margin-left: -120px;
+    .h2sec2 {
+        font-size: xx-large;
+    }
+
+    .psec2b {
+        font-size: smaller;
+    }
+
+    .iconseccion2 {
+        margin-bottom: 10px;
+        margin-left: -68px;
+    }
+
+    /* Seccion 3 */
+
+    .h2sec3 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .p1asec3 {
+        font-size: 18px;
+        margin-bottom: 70px;
+    }
+
+    .p1bsec3 {
+        font-size: small;
     }
 
     .vertical2 {
-        margin-right: -300px;
+        margin-right: -100px;
+    }
+
+    .textocaja2sec3 {
+        justify-content: center;
+    }
+
+    .h3sec3 {
+        margin-top: 45px;
+        margin-bottom: -10px;
+    }
+
+    .p2asec3 {
+        margin-top: 15px;
+        margin-bottom: -30px;
+    }
+
+    .p2bsec3 {
+        font-size: small;
+    }
+    .hr1{
+        visibility: hidden;
+    }
+
+    .hr2{
+        visibility: hidden;
     }
 
     .horizontal1 {
@@ -629,10 +702,23 @@ textarea {
         align-items: center;
     }
 
-    footer {
-        width: 105%;
+    /* Seccion 4 */
+    .textocaja1sec4{
+        font-size: medium;
+    }
+
+    /* Seccion 5 */
+    .cajota2a {
+        text-align: start;
+        align-items: center;
+    }
+    .cajota2b {
+        text-align: start;
+        align-items: center;
     }
 }
+
+/* RESPONSIVE MOBILE */
 
 @media all and (max-width:480px) {
     .menu-fijo {
@@ -646,7 +732,8 @@ textarea {
         top: 10px;
     }
 
-    /*Sec1*/
+    /*Seccion 1*/
+
     .seccion1 {
         flex-direction: column;
         text-align: center;
@@ -767,9 +854,11 @@ textarea {
         font-size: large;
         margin-bottom: -30px;
     }
+
     .hr2 {
         visibility: hidden;
     }
+
     /* Seccion 4 */
 
     .caja1sec4 {
@@ -842,9 +931,6 @@ textarea {
     }
 
 }
-
-
-
 
 @media screen and (max-width: 480px) {
     .menu-toggle {
