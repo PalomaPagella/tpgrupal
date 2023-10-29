@@ -661,11 +661,21 @@ textarea {
     }
 
     .vertical2 {
-        margin-right: -100px;
+        width: 250px;
+        margin-left: -70px;
+        margin-top: 50px;
     }
+
+    .horizontal1 {
+        width: 350px;
+       margin-top: -25px;
+       margin-left: -120px;
+    }
+    
 
     .textocaja2sec3 {
         justify-content: center;
+        margin-left: 100px;
     }
 
     .h3sec3 {
@@ -681,17 +691,13 @@ textarea {
     .p2bsec3 {
         font-size: small;
     }
-    .hr1{
+
+    .hr1 {
         visibility: hidden;
     }
 
-    .hr2{
+    .hr2 {
         visibility: hidden;
-    }
-
-    .horizontal1 {
-        margin-top: 70px;
-        margin-left: -100px;
     }
 
     .textocaja2sec3 {
@@ -703,7 +709,7 @@ textarea {
     }
 
     /* Seccion 4 */
-    .textocaja1sec4{
+    .textocaja1sec4 {
         font-size: medium;
     }
 
@@ -712,6 +718,7 @@ textarea {
         text-align: start;
         align-items: center;
     }
+
     .cajota2b {
         text-align: start;
         align-items: center;
