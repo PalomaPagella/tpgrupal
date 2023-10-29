@@ -668,10 +668,10 @@ textarea {
 
     .horizontal1 {
         width: 350px;
-       margin-top: -25px;
-       margin-left: -120px;
+        margin-top: -25px;
+        margin-left: -120px;
     }
-    
+
 
     .textocaja2sec3 {
         justify-content: center;
@@ -784,15 +784,21 @@ textarea {
 
     }
 
+    /* Seccion 2 */
+
     .seccion2 {
         flex-direction: column;
         text-align: center;
         align-items: center;
-        margin-left: -120px;
+        margin-left: -190px;
     }
 
     .imagensec2 {
         width: 100%;
+    }
+
+    .vertical1 {
+        width: 300px;
     }
 
     .iconseccion2 {
@@ -810,18 +816,22 @@ textarea {
         margin: 100px 10px 15px -20px;
     }
 
+    .textocaja1sec3 {
+        margin-left: 20px;
+    }
+
     .h2sec3 {
         text-align: right;
         margin-top: -60px;
-        margin-bottom: 300px;
-        margin-right: -170px;
+        margin-bottom: 320px;
+        margin-right: -150px;
         margin-left: 50px;
         font-size: xx-large;
     }
 
     .vertical2 {
-        margin-top: -120px;
-        margin-left: 40px;
+        margin-left: 100px;
+        margin-bottom: -40px;
     }
 
     .p1asec3 {
@@ -836,12 +846,12 @@ textarea {
         display: flex;
         margin-left: 200px;
         align-items: center;
-
+        margin-top: -50px;
     }
 
     .horizontal1 {
-        margin-top: 130px;
-        margin-left: 100px;
+        margin-top: -25px;
+        margin-left: 30px;
         width: 300px;
     }
 
@@ -853,7 +863,7 @@ textarea {
         justify-content: center;
         text-align: center;
         align-items: center;
-        margin-left: 90px;
+        margin-left: 230px;
     }
 
     .p2asec3 {
